@@ -31,3 +31,4 @@ submission = pd.read_csv('../input/feedback-prize-english-language-learning/samp
 train.head(10)
 </code>
 </pre>
+<img width="866" alt="스크린샷 2022-09-19 오후 9 54 17" src="https://user-images.githubusercontent.com/89832402/191022013-0850ae53-d33a-4bf7-85a9-15886435efaa.png">
