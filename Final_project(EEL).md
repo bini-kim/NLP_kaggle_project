@@ -23,7 +23,7 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 </pre>
 
 ## DATA
-### Import DATA
+### 1. Import DATA
 <pre>
 <code>
 train = pd.read_csv('../input/feedback-prize-english-language-learning/train.csv')
@@ -56,3 +56,22 @@ submission
 </pre>
 <img width="565" alt="스크린샷 2022-09-20 오후 6 09 20" src="https://user-images.githubusercontent.com/89832402/191217640-10728963-ab05-4e2d-b790-ef61f36032ee.png">
 
+### 2. EDA(train data)
+#### 1) Shape
+#### train data = 3911 , 8
+#### test data = 3, 2
+<pre>
+<code>
+print(train.shape, test.shape)
+</code>
+</pre>
+(3911, 8) (3, 2)
+
+#### 2) Train info
+<pre>
+<code>
+#train info
+train.info()
+</code>
+</pre>
+<img width="391" alt="스크린샷 2022-09-21 오후 5 42 15" src="https://user-images.githubusercontent.com/89832402/191458202-49ccc534-ba33-4d3e-a485-346947321fc6.png">
