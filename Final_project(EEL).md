@@ -74,38 +74,10 @@ print(train.shape, test.shape)
 train.info()
 </code>
 </pre>
-<div>
-<class 'pandas.core.frame.DataFrame'><br>
-RangeIndex: 3911 entries, 0 to 3910<br>
-Data columns (total 8 columns):<br>
- #   Column       Non-Null Count  Dtype<br>  
----  ------       --------------  -----<br>
- 0   text_id      3911 non-null   object <br>
- 1   full_text    3911 non-null   object <br>
- 2   cohesion     3911 non-null   float64<br>
- 3   syntax       3911 non-null   float64<br>
- 4   vocabulary   3911 non-null   float64<br>
- 5   phraseology  3911 non-null   float64<br>
- 6   grammar      3911 non-null   float64<br>
- 7   conventions  3911 non-null   float64<br>
-dtypes: float64(6), object(2)<br>
-memory usage: 244.6+ KB<br>
-</div>    
 
 #### 3) 6 cols have 9 data.
 <pre>
 <code>
 train.nunique()
 </code>
-</pre>
-<p>
-text_id        3911<br>
-full_text      3911<br>
-cohesion          9<br>
-syntax            9<br>
-vocabulary        9<br>
-phraseology       9<br>
-grammar           9<br>
-conventions       9<br>
-dtype: int64
-</p>
+
